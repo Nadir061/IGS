@@ -23,12 +23,17 @@
     src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
 }
 h1{
+    width: 90%;
     margin: auto;
-    text-align: center;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 h2{
-    margin: 50px auto;
-    text-align: center;
+    width: 90%;
+    text-align:center;
+    margin: 25px auto;
 }
 a{
     text-decoration: none;
@@ -39,8 +44,9 @@ a{
     font-size: 36px;
 }
 .separ1{
-    font-size: 36px;
-    font-weight: 900;
+    font-family: 'Bungee Spice', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
 .igsLink{
     text-decoration: none;
@@ -49,6 +55,16 @@ a{
 .myLink{
     text-decoration: none;
     color: black
+}
+.igsLinkDiv{
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+}
+.myLinkDiv{
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
 }
 .htm{
     font-family: 'Bungee Spice', sans-serif;
@@ -65,7 +81,6 @@ a{
     text-shadow: 3px 3px 5px blue;
 }
 body{
-    /*#FFF8DC - Cornsilk */
 background-color: #dcffe1;
 }
 .mainDiv{
@@ -78,18 +93,21 @@ background-color: #dcffe1;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items:center;
-    background-color: indianred;
 }
-@media all and (max-width: 1200px){
-
+@media all and (max-width: 460px){
+    .myLinkDiv{
+        margin-top: 5px;
+        text-decoration-line: overline;
+        text-decoration-color: indianred;
+    }
 }
-
 
 .lessons{
     width: 100px;
     height: 100px;
+    margin: 10px auto;
     background-color:yellowgreen;   
     border: 3px solid indianred;
     border-radius: 35%;
