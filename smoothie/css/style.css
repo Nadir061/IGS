@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+h1{
+    font-family: "Bungee Spice Regular";
+    }
+
+.container{
+    max-width: 1143px;
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+
+.header_nav{
+    max-width: 900px;
+    width: 100%;
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.header_nav__items{
+    display: flex;
+    gap: 30px;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.header_nav__link{
+    color: #433840;
+}
+
+.header_nav__link:hover{
+    color: pink;
+}
+
+.about{
+    background-image: url(../img/bout.svg);
+    background-size: cover;
+    background-position: center;
+    max-width: 1820px;
+    width: 100%; 
+    margin: 0 auto;
+}
+
+.about_container{
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}    
+
+.about_container__top{
+    background-image: url(../img/top.svg);
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about_container__items{
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 22px;    
+}
+
+.about_container__items__h2{
+    font-family: Quicksand;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.about_container__items__h3{
+    font-family: Waiting for the Sunrise;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    color: #FFF;
+}
+
+.about_container__bottom{
+    background-image: url(../img/bottom.svg);
+    height: 110px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.smoothie_container{
+    max-width: 1131px;
+    width: 100%;
+    height: 520px;
+    display: flex;
+    flex-direction: row;
+    margin: 82px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 36px;
+    
+}
+.smoothie_container_text1{
+    display: flex;
+    flex-direction: column;
+    max-width: 332px;
+    width: 100%;
+    height: 520px;
+    gap: 70px 0px;
+}
+.smoothie_container_text1__top{
+    max-width: 332px;
+    width: 100%;
+    height: 120;
+}
+.smoothie_container_text1__top > h4{
+    font-family: Quicksand;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    color: #433840;
+}
+.smoothie_container_text1__top > p{
+    font-family: Quicksand;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #9A9A9A;
+    margin: 12px auto;
+}
+
+.smoothie_container_text1__middle > h4{
+    font-family: Quicksand;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    color: #433840;
+}
+.smoothie_container_text1__middle > p{
+    font-family: Quicksand;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #9A9A9A;
+    margin: 12px auto;
+}
+
+.smoothie_h4{
+    font-family: Quicksand;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    color: #433840;
+}
+.smoothie_p{
+    font-family: Quicksand;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #9A9A9A;
+    margin: 12px auto;
+}
+
+.smoothie_container_image{
+    max-width: 380px;
+    width: 100%;
+    height: 421px;
+    background-image: url(../img/smoothie.svg);
+    background-repeat: no-repeat;
+    background-position:  center center;
+}
+
+
+.fruit{
+    max-width: 1820px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px auto;
+    background-color: #FEA3AC;
+}
+
+.fruit_top{
+    background-image: url(../img/top.svg);
+    max-width: 1820px;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fruit_container{
+    max-width: 1080px;
+    width: 100%;
+    height: 220px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+.fruit_container_item{
+    max-width: 190px;
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fruit_container_item > h3{
+    font-family: Waiting for the Sunrise;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    color: #DFEEB6;
+}
+
+.fruit_container_item > h4{
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.fruit_container_item > img{
+    object-fit: cover;
+}
+
+.fruit_bottom{
+    background-image: url(../img/bottom.svg);
+    max-width: 1820px;
+    width: 100%;
+    height: 110px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.team{
+    max-width: 1150px;
+    width: 100%;
+    height: 970px;
+    margin: 50px auto;
+}
+
+.team_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team_title{
+   font-family: Quicksand;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    color: #433840;
+}
+.team_subtitle{
+    font-family: Waiting for the Sunrise;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    color: #F7A1A8;
+}
+.team_items{
+    max-width: 1150px;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: 67px;
+    row-gap: 40px;
+}
+.team_item1{
+    max-width: 560px;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+.team_item2{
+    max-width: 560px;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+.team_item_img__left{
+    position: absolute;
+    left: 0px;
+    bottom: 25px;
+}
+
+.team_item_img__right{
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+}
+.team_item_data__1{
+    max-width: 390px;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    /* margin: auto 170px auto 0px; */
+    background-color: #C9E3F4;
+}
+
+.team_item_data__2{
+    max-width: 390px;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    /* margin: auto 170px auto 0px; */
+    background-color: #DFEEB6;
+}
+
+.team_item_data__3{
+    max-width: 390px;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 50px;
+    background-color: #DFEEB6;
+}
+
+.team_item_data__4{
+    max-width: 390px;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #C9E3F4;
+}
+.team_item_data__container1{
+    max-width: 190px;
+    width: 100%;
+    height: 215px;
+    margin-right: 20px;
+}
+.team_item_data__container1 > h4{
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+.team_item_data__container1 > h5{
+    color: #433840;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 14px;
+}
+
+.team_item_data__container1 > p{
+    color: #433840;
+    font-family: Quicksand;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px; 
+}
+
+.team_item_data__container2{
+    max-width: 190px;
+    width: 100%;
+    height: 215px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.team_item_data__container2 > h4{
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+.team_item_data__container2 > h5{
+    color: #433840;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 14px;
+    align-self: flex-end;
+}
+
+.team_item_data__container2 > p{
+    color: #433840;
+    font-family: Quicksand;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px; 
+    text-align: end;
+}
+
+.team_item_social1{
+    max-width: 150px;
+    width: 100%;
+    height: 35;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    margin-top: 10px;
+}
+.team_item_social2{
+    max-width: 150px;
+    width: 100%;
+    height: 35;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+.content_footer{
+    max-width: 1920px;
+    width: 100%;
+    display: inline;
+    margin: 0 auto;
+}
+.content_footer__container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+.content_footer__container__first{
+    max-width: 1920px;
+    width: 100%;
+    height: 500px;  
+    margin: 0 auto;
+    background: linear-gradient(0deg, rgba(67, 56, 64, 0.85) 0%, rgba(67, 56, 64, 0.85) 100%), url('../img/fruits.jpg'), lightgray 50% / cover no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content_footer__container_second{
+    max-width: 1920px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #433840;
+}
+.content_footer__second__container__copyright{
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    margin: 7px auto 18px auto;
+}
+
+
+.content_footer__second__container__socialnetwork{
+    width: 116px;
+    height: 35px;
+    margin: 7px auto 18px auto;
+    color: #DFEEB6;
+    text-align: right;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+

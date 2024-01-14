@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    
+}
+.pushkin{
+    width: 500px;
+}
+
+.backColor{
+    background-color: #95cd9a;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+.mainDiv{
+    display: flex;
+    background-color: tomato;
+}
+.navigating{
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    margin: auto;
+}
+.home{
+    margin-left: 100px;
+}
+.next{
+    margin-left: 100px;
+}

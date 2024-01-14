@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Bungee Spice';
+    src: url(../fonts/Bungee_Spice/BungeeSpice-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tektur';
+    src: url(../fonts/Tektur/Tektur-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'Bungee Shade';
+    src: url(../fonts/Bungee_Shade/BungeeShade-Regular.ttf);
+}
+@font-face {
+    font-family: 'Bebas Neue'   ;
+    src: url(../fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Pacifico', cursive;
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+h1{
+    margin: auto;
+    text-align: center;
+}
+h2{
+    margin: 50px auto;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #c5ffce;
+}
+.separ{
+    font-family: 'Bungee Spice';
+    font-size: 36px;
+}
+.separ1{
+    font-size: 36px;
+    font-weight: 900;
+}
+.igsLink{
+    text-decoration: none;
+    color: black
+}
+.myLink{
+    text-decoration: none;
+    color: black
+}
+.htm{
+    font-family: 'Bungee Spice', sans-serif;
+    font-weight: 400;
+}
+.cs{
+    font-family: 'Bungee Spice', sans-serif;
+    font-weight: 400;
+}
+.htm:hover{
+    text-shadow: 3px 3px 5px orange;
+}
+.cs:hover{
+    text-shadow: 3px 3px 5px blue;
+}
+body{
+    /*#FFF8DC - Cornsilk */
+background-color: #dcffe1;
+}
+.mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lessonsLine{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    background-color: indianred;
+}
+@media all and (max-width: 1200px){
+
+}
+
+
+.lessons{
+    width: 100px;
+    height: 100px;
+    background-color:yellowgreen;   
+    border: 3px solid indianred;
+    border-radius: 35%;
+    text-align: center;
+}
+.lessons:hover{
+    background-color: indianred;
+    text-shadow: 5px 5px 3px black;
+}
+.lessonx{
+    font-size: 22px;
+    margin-top: 40px;
+    color: #c5ffce;
+}
+.lessonxx{
+    font-size: 21px;
+    margin-top: 40px;
+    color: #c5ffce;
+}
+

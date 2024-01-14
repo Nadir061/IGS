@@ -1,0 +1,88 @@
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+.mainDiv{
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    background-color: tomato;
+    flex-direction: row;
+    justify-content:center;
+    
+}
+.back{
+    margin-left: -200px;
+}
+.home{
+    margin-left: 100px;
+}
+.items{
+    width: 400px;
+    height: 280px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.2fr;
+    grid-template-rows: 0.5fr 1fr 0.7fr 0.3fr;
+    margin: 50px auto;
+    gap: 10px 15px ;
+    justify-content: center;
+    text-align: center;
+    grid-template-areas: 
+    "B C A"
+    "D F A"
+    "E F A"
+    "G H I";
+}
+.item1{
+    border: 1px solid black;
+    background-color: aqua;
+    grid-area: A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item2{
+    border: 1px solid black;
+    background-color: #00f261;
+    grid-area: B;
+}
+.item2 > a{
+    text-decoration: underline;
+}
+.item3{
+    border: 1px solid black;
+    background-color: #00ff1e;
+    grid-area: C;
+}
+.item4{
+    border: 1px solid black;
+    background-color: blue;
+    grid-area: D;
+}
+.item5{
+    border: 1px solid black;
+    background-color: gray;
+    grid-area: E;
+}
+.item6{
+    border: 1px solid black;
+    background-color: brown;
+    grid-area: F;
+}
+.item7{
+    border: 1px solid black;
+    background-color: pink;
+    grid-area: G;
+}
+.item8{
+    border: 1px solid black;
+    background-color: rgb(207, 169, 0);
+    grid-area: H;
+}
+.item9{
+    border: 1px solid black;
+    background-color: yellow;
+    grid-area: I;
+}

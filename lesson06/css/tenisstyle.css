@@ -1,0 +1,27 @@
+.tSizeP{
+    font-size: 20px;
+    line-height: 20px;
+    width: 500px;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+.mainDiv{
+    display: flex;
+    background-color: tomato;
+}
+.navigating{
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    margin: auto;
+}
+.home{
+    margin-left: 100px;
+}
+.next{
+    margin-left: 100px;
+}

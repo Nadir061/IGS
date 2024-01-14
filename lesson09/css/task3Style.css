@@ -1,0 +1,33 @@
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+.mainDiv{
+    display: flex;
+    background-color: tomato;
+}
+.navigating{
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    margin: auto;
+}
+
+.home{
+    margin-right: 200px;
+}
+.back{
+    margin-right: 200px;
+}
+.imgDiv{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    border: 2px solid red;
+    background-image: url('https://spacedock.ru/uploads/posts/2013-11/1385143250_screenshot34.png');
+    background-position: center center;
+    background-size:cover;
+    
+}

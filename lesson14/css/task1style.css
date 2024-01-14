@@ -1,0 +1,38 @@
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+.mainDiv{
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    background-color: tomato;
+    flex-direction: row;
+    justify-content:center;
+}
+.home{
+    margin-left: 100px;
+}
+.next{
+    margin-left: 100px;
+}
+.posDigit{
+ list-style-type: decimal;
+}
+.lowerLatin{
+    list-style-type: lower-latin;
+}
+.lowerRoman{
+    list-style-type: lower-roman;
+}
+.nigativeDigit{
+    list-style-type:decimal;
+}
+.square{
+    list-style-type: square;
+}
+.noneStyle{
+    list-style: none;
+}

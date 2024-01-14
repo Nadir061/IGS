@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    background-color: yellowgreen;
+}
+h2{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+.taskLink{
+    text-decoration: none;
+    font-size: 30px;
+}
+li{
+    list-style-type: square;
+    font-size: 30px;
+}

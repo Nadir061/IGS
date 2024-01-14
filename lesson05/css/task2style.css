@@ -1,0 +1,63 @@
+h1{
+    color: #008B8B;
+    border: 2px solid #EE82EE;
+    border-radius: 10px;
+    width: 600px;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+.persRover{
+    text-align: left;
+    width: 1000px;
+    
+}
+.mars{
+    text-align: left;
+    width: 800px;
+    border: 3px solid #4B0082;
+}
+.backColor{
+    background-color: #5ED868;
+}
+.italicStyle{
+    font-style: italic;
+}
+.orngText{
+    color: #B8860B
+}
+.fontSize20{
+    font-size: 20px;
+}
+.centerText{
+    text-align: center;
+}
+.boldText{
+    font-weight: 900;
+}
+.thinText{
+    font-weight: 100;
+}
+.spiritOpport{
+    background-color: #FF7F50;
+    width: 600px;
+}
+.mainDiv{
+    display: flex;
+    background-color: tomato;
+}
+.navigating{
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    margin: auto;
+}
+.home{
+    margin-left: 100px;
+}
+.next{
+    margin-left: 100px;
+}

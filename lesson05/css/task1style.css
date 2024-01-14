@@ -1,0 +1,39 @@
+span{
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.spandiv{
+    margin-top: 50px
+}
+.redText{
+    color: red;
+}
+
+.orngBack{
+    background-color: orange;
+}
+.italicStyle{
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+.mainDiv{
+    display: flex;
+    background-color: tomato;
+}
+.navigating{
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    margin: auto;
+}
+.home{
+    margin-left: 100px;
+}
+.next{
+    margin-left: 100px;
+}

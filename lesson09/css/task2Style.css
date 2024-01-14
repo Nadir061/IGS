@@ -1,0 +1,34 @@
+.backColor{
+    background-color: #567895;
+    width: 500px;
+}
+h2{
+    color: white;
+    background-color: black;
+    width: 300px;
+}
+span{
+    background-color:#abbcca;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+.mainDiv{
+    display: flex;
+    background-color: tomato;
+}
+.navigating{
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    margin: auto;
+}
+.home{
+    margin-left: 100px;
+}
+.next{
+    margin-left: 100px;
+}

@@ -1,0 +1,97 @@
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+.mainDiv{
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    background-color: tomato;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.mainBox{
+    display: grid;
+    margin-top: 50px;
+    max-width: 400px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+    "A A B C"
+    "D E E F"
+    "D E E F"
+    "J E E F"
+    "J E E F"
+    "K L M F";
+}
+.grid{
+    font-size: larger;
+    border: 1px solid black;
+    display: flex;
+}
+.center{
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.end{
+    justify-content: end;
+    align-items: flex-end;
+}
+.yellow{
+    background-color: yellow;
+}
+.white{
+    background-color: white;
+}
+.green{
+    background-color: green;
+}
+.seaWave{
+    background-color: #13686e;
+}
+.blue{
+    background-color: #a2ccec;
+}
+
+.grey{
+    background-color: #9fc7c6;
+}
+
+.greenGray{
+    background-color: #477b79;
+}
+
+.box-1{
+    grid-area: A;
+}
+.box-2{
+    grid-area: B;
+}
+.box-3{
+    grid-area: C;
+}
+.box-4{
+    grid-area: D;
+}
+.box-5{
+    grid-area: E;
+}
+.box-6{
+    grid-area: F;
+}
+.box-7{
+    grid-area: J;
+}
+.box-8{
+    grid-area: K;
+}
+.box-9{
+    grid-area: L;
+}
+.box-10{
+    grid-area: M;
+}

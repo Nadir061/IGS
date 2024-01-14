@@ -1,0 +1,86 @@
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+.mainDiv{
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    background-color: tomato;
+    flex-direction: row;
+    justify-content:center;
+}
+.next{
+    margin-left: 100px;
+}
+.back{
+    margin-right: 100px;
+}
+.container{
+    display: grid;
+    max-width: 800px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 80px);
+    gap: 20px;
+    margin-top: 50px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    border: 2px dashed greenyellow;
+    justify-content: space-between;
+    background-color: #e7fad7;
+}
+.block2{
+    overflow: auto;
+}
+
+.block3 > span{
+    font-size: larger;
+    text-shadow: 10px 10px 5px blueviolet;
+}
+.block4{
+    cursor: pointer;
+    font-size: larger;
+}
+.block5{
+    font-size: larger;
+}
+.block6{
+    font-size: larger;
+    writing-mode: vertical-rl;
+}
+.block7{
+    font-size: larger;
+    transform: rotate(180deg);
+}
+.block8{
+    font-size: larger;
+}
+.block9{
+    font-size: larger;
+    background: linear-gradient(to right, rgb(208, 255, 1), black);
+}
+
+.turquoise{
+    width: 40px;
+    height: 40px;
+    background-color: turquoise;
+    align-self: flex-start;
+}
+
+.blueviolet{
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    align-self: center;
+}
+
+.red{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    align-self: end;
+}

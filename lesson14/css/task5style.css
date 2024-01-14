@@ -1,0 +1,55 @@
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+.mainDiv{
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    background-color: tomato;
+    flex-direction: row;
+    justify-content:center;
+}
+.next{
+    margin-left: 100px;
+}
+.back{
+    margin-right: 100px;
+}
+.container{
+    display: grid;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    border: 2px solid #ff69b4;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "R . ."
+    ". B ."
+    ". . Y";
+}
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    grid-area: R;
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    grid-area: B;
+}
+.yellow{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    grid-area: Y;
+}
+.grid{
+    display: flex;
+}

@@ -1,0 +1,37 @@
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+.mainDiv{
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    background-color: tomato;
+    flex-direction: row;
+    justify-content:center;
+}
+.home{
+    margin-left: 100px;
+}
+.next{
+    margin-left: 100px;
+}
+
+.pink{
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-right: 80px;
+    display: inline-block;
+}
+
+.grey{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    margin-top: 50px;
+    display: inline-block;
+}

@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+.mainDiv{
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    background-color: tomato;
+    flex-direction: row;
+    justify-content:center;
+}
+.next{
+    margin-left: 100px;
+}
+.back{
+    margin-right: 100px;
+}
+.container{
+    width: 300px;
+    border: 2px solid red;
+    margin-top: 50px;
+}
+p{
+    padding: 30px;
+}

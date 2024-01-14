@@ -1,0 +1,28 @@
+.parent{
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 10px 20px; 
+    
+}
+
+.chaild1{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.chaild2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.chaild3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}

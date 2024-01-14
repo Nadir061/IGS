@@ -1,0 +1,42 @@
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    text-align: center;
+    background-color: yellowgreen;
+}
+h2{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+.size30{
+    font-size: 30px;
+}
+
+.backColor{
+    background-color: #5ED868;
+}
+.links{
+    text-decoration: none;
+}
+
+.sizeLinkP{
+   font-size: 20px;
+   line-height: 20px;
+}
+.anyText{
+    text-align: center;
+}
+
+.loremText{
+    color: #C3691E;
+    background-color: #5ED868;
+}
+.pWidht{
+    width: 800px;
+}
